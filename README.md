@@ -48,6 +48,7 @@ cd timesynth-0.2.4/
 pip install .
 cd ..
 python -m pip install -e .
+pip install time_interpret
 cd ./experiments/freqshape/
 python bc_model_ptype.py
 ```
